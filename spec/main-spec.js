@@ -10,34 +10,6 @@ describe('lcd', function () {
             var lcd =fixtures.buildLcd();
         });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         it('should print correct text', function () {
 
             spyOn(console, 'log');
